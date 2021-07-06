@@ -1,3 +1,4 @@
+/* eslint-disable */
 (function(window){
   window.extractData = function() {
     var ret = $.Deferred();
@@ -129,3 +130,4 @@
   };
 
 })(window);
+/* eslint-disable */
