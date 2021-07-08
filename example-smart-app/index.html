@@ -94,6 +94,7 @@
         function() {
           $('#loading').hide();
           $('#errors').html('<p> Failed to call FHIR Service </p>');
+          console.log('extractData failed');
         }
       ).catch((e) => {
         console.log('catch error');
